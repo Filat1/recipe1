@@ -14,7 +14,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { DropdownDirective } from './shared/dropdown.directive';
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import {Routes, RouterModule} from '@angular/router';
-import {RecipeStartComponent} from './recipes/recipe-detail/recipe-start.comonent';
+import {RecipeStartComponent} from './recipes/recipe-detail/recipe-start.component';
 import {RecipeService} from './recipes/recipe.service';
 import {AppRoutingModule} from './app-routing.module';
 
