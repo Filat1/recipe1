@@ -27,6 +27,11 @@ export class RecipeDetailComponent implements OnInit {
     console.log('subscribed id ', this.id);
   }
 
+  onEditRecipe(){
+    this.router.navigate(['edit'],{relativeTo: this.activatedRoute});
+    console.log('onEditRecipe: ', this.id);
+  }
+
   onAddToShoppingList() {
     // this.recipeService.addIngredientsToShoppingList(this.recipe.ingredients);
   }
